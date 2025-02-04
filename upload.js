@@ -5,7 +5,7 @@ const FormData = require('form-data');
 
 const PINATA_API_KEY = process.env.PINATA_API_KEY;
 const PINATA_SECRET_API_KEY = process.env.PINATA_SECRET_API_KEY;
-const FOLDER_PATH = './decentralized-website'; // Your website folder
+const FOLDER_PATH = './'; // Your website folder
 
 async function uploadFolder() {
     if (!PINATA_API_KEY || !PINATA_SECRET_API_KEY) {
